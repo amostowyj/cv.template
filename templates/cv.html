@@ -16,6 +16,13 @@
     <h2>Summary</h2>
     {{ summary }}
 
+    <h2>Key Skills</h2>
+    <ul>
+    {% for bullet_point in key_skills %}
+        <li>{{ bullet_point -}}</li>
+    {% endfor %}
+    </ul>
+
     <h2>Experience<h2>
     {% for item in experience %}
     {%- if loop.index > max_exp_items_to_show %}
@@ -40,7 +47,7 @@
     {% endif -%}
     {% endfor %}
 
-    <h2>Certifications and Training</h2>
+    <h2>Qualifications and Training</h2>
     <ul>
     {% for item in qualifications %}
     {% if item.url is defined and item.url|length %}

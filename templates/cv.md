@@ -10,6 +10,11 @@
 
 {{ summary }}
 
+## Key Skills
+{% for bullet_point in key_skills %}
+ * {{ bullet_point -}}
+{% endfor %}
+
 ## Experience
 
 {% for item in experience %}
