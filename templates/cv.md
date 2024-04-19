@@ -10,14 +10,13 @@
 
 {{ summary }}
 
-
 ## Experience
 
 {% for item in experience %}
 {%- if loop.index > max_exp_items_to_show %}
 {%- if loop.index == max_exp_items_to_show + 1 %}
 ### Earlier Experience
-_Varios locations_
+_Various locations_
 {% endif %}
  * {{ item.title }}, [{{ item.company_name }}]({{ item.company_url }}) _({{ item.dates }})_
 {%- else %}
@@ -31,44 +30,25 @@ _{{ item.used_technologies|join(", ") }}_
 {% endif -%}
 {% endfor %}
 
-
-## Education
-{% for item in education %}
-### {{ item.title }}
-_{{ item.dates }}_
-{% endfor %}
-
-## Certifications and Training
-{% for item in certificates %}
+## Qualifications and Training
+{% for item in qualifications %}
 {%- if item.url is defined and item.url|length %}
  * [{{ item.title }}]({{ item.url }})
 {%- else %}
  * {{ item.title }}
 {%- endif -%}
 {% endfor %}
-{%- for item in training -%}
+{%- for item in certificates -%}
 {% if item.url is defined and item.url|length %}
  * [{{ item.title }}]({{ item.url }})
 {%- else %}
  * {{ item.title }}
 {%- endif -%}
 {% endfor %}
-
-
-## Skills
-
-{{ skills|join(", ") }}.
-
-   
-## Open Source Projects
-{% for item in oss_projects %}
+{%- for item in internal_training -%}
+{% if item.url is defined and item.url|length %}
  * [{{ item.title }}]({{ item.url }})
-   {% if item.description is defined and item.description|length -%}{% if not loop.last %} \{% endif %}
-   {{ item.description }}
-   {%- endif %}
+{%- else %}
+ * {{ item.title }}
+{%- endif -%}
 {% endfor %}
-
-## Publications
-{% for item in publications %}
- * [{{ item.title }}]({{ item.url }})
-{%- endfor %}

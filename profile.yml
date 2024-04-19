@@ -1,118 +1,138 @@
 ---
-full_name: Johnny Codemaster
+full_name: Anya Mostowyj
 summary: >
-  Enthusiastic and innovative software developer with a knack for turning caffeine into code. 
-  Armed with a wizard's wand (keyboard) and a magical hat (headphones), I've crafted digital 
-  wonders for over a decade. My spells range from web enchantments to mobile charms, all sprinkled 
-  with a dash of humor and a pinch of pixel-perfect precision. Seeking new quests to conquer 
-  and challenges to turn into triumphs.
+I'm an experienced product engineer, who enjoys creating simple, testable solutions to complex problems. I excel in a collaborative environment; I’m motivated by working side-by-side with people who love what they do, but I’m equally happy working solo and taking ownership of delivering and supporting features in production. Skilled at communicating technical detail to non-technical stakeholders, I am level-headed and decisive, regularly stepping up to take responsibility for technical decisions for my products and then communicating them to the wider team. I love helping to build diverse, collaborative teams and I believe this is the key to delivering real value to the customers and people we're bulding software for.
 
 contact_details:
-  Email: johnny@codemaster.me
-  GitPub: https://gitpub.site/johnnycodemaster
-  LinkedIO: https://linkedio.site/io/johnnycodemaster
+  Email: anya.mostowyj@gmail.com
+  LinkedIO: https://www.linkedin.com/in/anya-mostowyj-08177038/
+
+key_skills: >
+- Experienced in Golang, C# .NET, Event-Driven and REST microservices, Docker, CI/CD, BDD, Git, AWS, Azure
+- Confident communicator, approachable and collaborative
+- Stakeholder relationships
+- Agile software development
+- Ability to pick up new skills quickly, retaining high levels of detail and domain context
+- Line-management/mentoring
+- Monitoring and responding to customer affecting issues
 
 experience:
-  - title: Senior Sorcerer
-    company_name: ByteBlitz Technologies
-    company_url: https://www.byte-blitz.company/
-    dates: 01/2020 - Present
-    location: Remote, Mystical Valley
+  - title: Senior Go Engineer
+    company_name: Form3
+    company_url: https://www.form3.tech/
+    dates: 09/2022 - Present
+    location: Remote
     bullet_points:
-      - Led a team of code crusaders in developing next-gen applications and enchanting user experiences.
-      - Spearheaded the implementation of Agile spellcasting methodologies, resulting in a 30% increase in project efficiency.
-      - Designed and implemented scalable backend architectures using the latest enchanted frameworks.
+      - Led a project to integrate a major UK bank into Form3's SEPA DD Gateway. The project was delivered on time and with a high degree of confidence in the team.
+      - Fixed and extended SEPA CT Gateway soak tests, allowing performance bottlenecks to be identified and resolved.
+      - Proposed changes to the handling of staging environment incidents to allow easier identification of potential customer-impacting issues.
     used_technologies:
-      - PyroScript
-      - CharmSQL
-      - Mystic Cloud Computing
-  - title: Lead Enchanter
-    company_name: Pixel Potions Ltd
-    company_url: https://www.pixel-potions.company/
-    dates: 01/2018 - 12/2019
-    location: Hybrid, Enchanted Realm
+      - Golang
+      - Terraform
+      - Event-Driven Microservices
+      - AWS (ECS, EKS, SQS)
+      - GitHub actions
+      - Prometheus, Grafana, Logz.io
+  - title: .NET Consultant
+    company_name: Amido (now Ensono Digital)
+    company_url: https://www.ensono.com/amido/
+    dates: 08/2021 - 08/2022
+    location: Remote
     bullet_points:
-      - Brewed potions (code) to bring stunning visuals and interactive experiences to life.
-      - Led the development of a magical mobile app, garnering 1 million downloads in its first month.
-      - Transformed design mockups into pixel-perfect realities, earning accolades from clients and users alike.
+      - Supported and upskilled engineering teams from Next Warehousing
+      - Managed stakeholder relationships, ensuring close collaboration with in-house development teams
+      - Championed and managed an internal women-in-tech community
     used_technologies:
-      - SorceryScript
-      - EnchantedReact
-      - PotionStyles
-      - Mystical Firebase
-  - title: Software Alchemist
-    company_name: Data Dwarves Inc
-    company_url: https://www.data-dwarves.company/
-    dates: 01/2016 - 12/2017
-    location: Remote, Arcane Forest
+      - .NET Core 2.1
+      - REST and Event-Driven Microservices
+      - Azure DevOps (+ ServiceBus, CosmosDB, AKS)
+      - Terraform
+  - title: Senior Software Engineer
+    company_name: comparethemarket
+    company_url: https://www.comparethemarket.com/
+    dates: 04/2017 - 08/2021
+    location: Peterborough, UK
     bullet_points:
-      - Transmuted data into digital gold, crafting robust backend systems and arcane algorithms.
-      - Implemented machine learning spells to uncover hidden insights in vast datasets, driving business growth.
-      - Mentored apprentice alchemists, guiding them in the ways of data sorcery and software alchemy.
+      - Domain expert for the backend services behind the Car, Van and Bike Insurance products
+      - Key contributor in the migration from MVC/VB.Net monoliths to C# microservices hosted in AWS
+      - Line-managed an apprentice engineer and mentored two additional software engineers
     used_technologies:
-      - ElixirCraft
-      - AlchemyTensor
-      - Potion Pandas
-  - title: Frontend Wizard
-    company_name: Code Kingdoms Corp 
-    company_url: https://www.code-kingdoms.company/
-    dates: 01/2013 - 12/2015
-    location: Enchanted Kingdom, Code Kingdoms
-    bullet_points:
-      - Conjured captivating user interfaces and bewitching user interactions for web and mobile platforms.
-      - Implemented responsive enchantments, ensuring seamless experiences across devices of all sizes.
-      - Collaborated with designers to bring their visions to life, adding a touch of magic to every pixel.
-    used_technologies:
-      - Go#
-      - HTML6
-      - CSS Charms
-      - JS Spells
-  - title: Junior Developer
-    company_name: BitByte Brigade
-    company_url: https://www.bitbyte-brigade.company/
-    dates: 01/2010 - 12/2012
-    location: Remote, Mystic Tower
-    bullet_points:
-      - Initiated into the mystical world of software development, honing skills in the dark arts of coding.
-      - Assisted senior wizards in debugging spells and crafting enchanting features for client projects.
-      - Learned the ancient languages of HTML, CSS, and JavaScript, laying the foundation for my magical journey.
-    used_technologies:
-      - EnigmaML
-      - Sorcerer's Expressions
-      - WizardJS
-      - MageQuery
+      - C# .NET 
+      - REST Microservices
+      - CI and Test Automation
+      - React
+      - Docker & AWS (ECS)
 
-education:
-  - title: Bachelor of Science in Computer Science, Magic University
-    dates: 2005-2010
+  - title: Software Engineer
+    company_name: comparethemarket
+    company_url: https://www.comparethemarket.com/
+    dates: 04/2015 - 03/2017
+    location: Peterborough, UK
+    bullet_points:
+      - Domain expert for the backend services behind the Car, Van and Bike Insurance products
+      - Key contributor in the migration from MVC/VB.Net monoliths to C# microservices hosted in AWS
+      - Line-managed an apprentice engineer and mentored two additional software engineers
+    used_technologies:
+      - C# .NET 
+      - REST Microservices
+      - CI and Test Automation
+      - React
+      - Docker & AWS (ECS)
+  - title: Web Application Developer
+    company_name: RSPB
+    company_url: https://www.rspb.org.uk/
+    dates: 11/2014 - 03/2015
+    location: Sandy, UK
+    bullet_points:
+      - Domain expert for the backend services behind the Car, Van and Bike Insurance products
+      - Key contributor in the migration from MVC/VB.Net monoliths to C# microservices hosted in AWS
+      - Line-managed an apprentice engineer and mentored two additional software engineers
+    used_technologies:
+      - C# .NET 
+      - REST Microservices
+      - CI and Test Automation
+      - React
+      - Docker & AWS (ECS)
+  - title: Software Engineer
+    company_name: comparethemarket
+    company_url: https://www.comparethemarket.com/
+    dates: 05/2013 - 11/2014
+    location: Peterborough, UK
+    bullet_points:
+      - Domain expert for the backend services behind the Car, Van and Bike Insurance products
+      - Key contributor in the migration from MVC/VB.Net monoliths to C# microservices hosted in AWS
+      - Line-managed an apprentice engineer and mentored two additional software engineers
+    used_technologies:
+      - C# .NET 
+      - REST Microservices
+      - CI and Test Automation
+      - React
+      - Docker & AWS (ECS)
+  - title: Junior Software Engineer
+    company_name: comparethemarket
+    company_url: https://www.comparethemarket.com/
+    dates: 02/2012 - 05/2013
+    location: Peterborough, UK
+    bullet_points:
+      - Domain expert for the backend services behind the Car, Van and Bike Insurance products
+      - Key contributor in the migration from MVC/VB.Net monoliths to C# microservices hosted in AWS
+      - Line-managed an apprentice engineer and mentored two additional software engineers
+    used_technologies:
+      - C# .NET 
+      - REST Microservices
+      - CI and Test Automation
+      - React
+      - Docker & AWS (ECS)
+
+qualifications:
+  - title: HNC Computing - Business Information Technology
+  - title: Certified Kubernetes Application Developer (CKAD) - currently preparing for exam
 
 certificates:
-  - title: Certificate in Advanced Spellcasting Techniques, Wizard Academy
-  - title: Certificate in Cloud Sorcery, Cloud Academy
-    url: https://www.cloud-academy.cert/johnnycodemaster
-  - title: Certificate in Cybersecurity Enchantment, Cryptic College
-    url: https://www.cryptic-college.cert/johnnycodemaster
+  - title: AAT Level 2
+  - title: EPiServer CMS – Development Fundamentals
 
-training:
-  - title: Training in Potion Crafting for Software Engineers, Enchanted Institute
-  - title: Training in Agile Spellcasting, Agile Wizards Institute
-    url: https://www.agile-wizards.training/johnnycodemaster
-
-skills: [PyroScript, ElixirCraft, HTML6, WizardJS, CharmSQL, Mystic Cloud Computing, AlchemyTensor, MageQuery]
-
-oss_projects: 
-  - title: "SpellCheck.js: A magical library for error-free incantations in JavaScript"  
-    url: https://www.open-source.oss/johnnycodemaster/spellcheck.js
-    description: A handy library of regex sorcery for JavaScript magic without mishaps.
-  - title: "PotentCSS: Brew powerful stylesheets with ease using this CSS preprocessor"
-    url: https://www.open-source.oss/johnnycodemaster/potent.css
-    description: A magical potion brewed with ElixirCraft and Enchanted Sass for flawless page prestidigitation.
-  - title: "EnchantedUI: A collection of bewitching UI components for web enchanters"
-    url: https://www.open-source.oss/johnnycodemaster/enchanted.ui
-
-publications:
-  - title: "The Art of Debugging: Finding the Magic in Mistakes"
-    url: https://wizards-gazette.pub/art-of-debugging
-  - title: "Sorcery in Software: Harnessing the Power of Abstractions"
-    url: https://code-conjurors-journal.pub/sorcery-in-software
-
+internal_training:
+  - title: Managing People
+  - title: Presentation Skills
+  - title: Mentoring & Coaching

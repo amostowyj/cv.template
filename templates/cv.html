@@ -21,7 +21,7 @@
     {%- if loop.index > max_exp_items_to_show %}
     {%- if loop.index == max_exp_items_to_show + 1 %}
     <h3>Earlier Experience</h3>
-    <em>Varios locations</em>
+    <em>Various locations</em>
     <ul>
     {% endif %}
       <li>{{ item.title }}, <a href="{{ item.company_url }}">{{ item.company_name }}</a> ({{ item.dates }})</li>
@@ -40,49 +40,28 @@
     {% endif -%}
     {% endfor %}
 
-    <h2>Education<h2>
-    {% for item in education %}
-    <h3 style="margin-bottom:0">{{ item.title }}</h3>
-    <em>{{ item.dates}}</em>
-    {% endfor %}
-
     <h2>Certifications and Training</h2>
     <ul>
-    {% for item in certificates %}
+    {% for item in qualifications %}
     {% if item.url is defined and item.url|length %}
         <li><a href="{{ item.url }}">{{ item.title -}}</a></li>
     {% else %}
         <li>{{ item.title -}}</li>
     {% endif %}
     {% endfor %}
-    {% for item in training %}
+    {% for item in certificates %}
     {% if item.url is defined and item.url|length %}
         <li><a href="item.url">{{ item.title }}</a></li>
     {% else %}
         <li>{{ item.title }}</li>
     {% endif %}
     {% endfor %}
-    </ul>
-
-    <h2>Skills</h2>
-    {{ skills|join(", ") }}.
-
-    <h2>Open Source Projects</h2>
-    <ul>
-    {% for item in oss_projects %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-            {% if item.description is defined and item.description|length %}
-                {{ item.description }}
-            {% endif %}
-        </li>
-    {% endfor %}
-    </ul>
-
-    <h2>Publications</h2>
-    <ul>
-    {% for item in publications %}
-        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+    {% for item in internal_training %}
+    {% if item.url is defined and item.url|length %}
+        <li><a href="item.url">{{ item.title }}</a></li>
+    {% else %}
+        <li>{{ item.title }}</li>
+    {% endif %}
     {% endfor %}
     </ul>
 </body>
