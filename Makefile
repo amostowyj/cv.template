@@ -34,7 +34,7 @@ clean:
 	@rm -fv "$(output_dir)"/*
 
 .PHONY: cv
-cv: | "$(output_dir)" cv-md cv-html
+cv: | "$(output_dir)" cv-pdf cv-md cv-html
 
 .PHONY: cv-pdf
 cv-pdf:
