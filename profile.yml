@@ -13,14 +13,14 @@ contact_details:
   Email: anya.mostowyj@gmail.com
   LinkedIn: https://www.linkedin.com/in/anya-mostowyj-08177038/
 
-key_skills: >
-- Experienced in Golang, C# .NET, Event-Driven and REST microservices, Docker, CI/CD, BDD, Git, AWS, Azure
-- Confident communicator, approachable and collaborative
-- Stakeholder relationships
-- Agile software development
-- Ability to pick up new skills quickly, retaining high levels of detail and domain context
-- Line-management/mentoring
-- Monitoring and responding to customer affecting issues
+key_skills: 
+  - Experienced in Golang, C# .NET, Event-Driven and REST microservices, Docker, CI/CD, BDD, Git, AWS, Azure
+  - Confident communicator, approachable and collaborative
+  - Stakeholder relationships
+  - Agile software development
+  - Ability to pick up new skills quickly, retaining high levels of detail and domain context
+  - Line-management/mentoring
+  - Monitoring and responding to customer affecting issues
 
 experience:
   - title: Senior Go Engineer
